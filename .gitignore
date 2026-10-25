@@ -1,9 +1,12 @@
 # Created by https://www.toptal.com/developers/gitignore/api/java
 # Edit at https://www.toptal.com/developers/gitignore?templates=java
 
-### Java ###
-# Compiled class file
+# Ignore all compiled class files
 *.class
+target/
+bin/
+build/
+
 
 # Log file
 *.log

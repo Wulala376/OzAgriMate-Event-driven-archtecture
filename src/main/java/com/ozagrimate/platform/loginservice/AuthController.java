@@ -31,6 +31,7 @@ public class AuthController {
                 "status", "success",
                 "token", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
             ));
+            
         }
         return ResponseEntity.status(401).body(Map.of("error", "Invalid or expired OTP"));
     }
